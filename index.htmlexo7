@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice_7</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form onsubmit="Valid()">
+            <label for="pointure">Pointure : </label><input type="text" id="pointure" name="pointure"/><br/>
+            <label for="annee">Année de naissance : </label><input type="text" id="annee" name="annee"/><br/>
+            <button id="valider" name="valider">Valider</button>
+        </form>
+        <script>
+            function Valid(){
+              var pointure = document.getElementById('pointure').value;
+              var annee =document.getElementById('annee').value;
+              var mult = pointure * 2;
+              alert(mult);
+              var add = mult + 5;
+              alert(add);
+              var po = add * 50;
+              alert(po);
+              var sous = po - annee;
+              alert(sous);
+              var result = sous + 1766;
+              alert(result);
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <title>Exercice 1</title>
+</head>
+    <script>
+          var demo = nom = "Nom : doe\n", prenom = "Prénom : john\n", ville = "Ville : New-York";
+              demo = nom + prenom + ville;
+            alert(demo);
+    </script>
+
+</html>
